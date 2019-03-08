@@ -2,6 +2,8 @@ package com.pinyougou.mapper;
 
 import com.pinyougou.pojo.TbSpecification;
 import com.pinyougou.pojo.TbSpecificationExample;
+import com.pinyougou.pojo.TbSpecificationOptionExample;
+
 import java.util.List;
 import java.util.Map;
 

@@ -20,4 +20,7 @@
 		this.search=function(page,size,searchEntity){
 			return $http.post("../brand/search.do?page="+page+"&size="+size,searchEntity);
 		}
+		this.selectOptionList=function(){
+			return $http.post("../brand/selectOptionList.do");
+		}
 	});
